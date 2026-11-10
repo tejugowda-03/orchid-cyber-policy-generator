@@ -1,36 +1,60 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🌿 Orchid — AI-Powered Cyber Policy Generator
 
-## Getting Started
+**Simplifying cybersecurity policy creation with AI.**
 
-First, run the development server:
+Orchid is an AI-powered web application that helps organizations generate customized cybersecurity policies based on their business requirements, industry, and selected compliance frameworks.
+
+## ✨ Key Features
+
+- **AI Policy Generation** — Generate customized cybersecurity policies.
+- **Smart Customization** — Tailor policies to organizational requirements.
+- **Compliance Support** — Select relevant compliance frameworks.
+- **Policy History** — Access previously generated policies.
+- **Persistent Storage** — Store policy records using Turso.
+
+## 🧰 Built With
+
+`Next.js` · `React` · `TypeScript` · `Tailwind CSS` · `OpenAI API` · `Turso` · `Drizzle ORM`
+
+## 🚀 Getting Started
+
+**Prerequisites:** Node.js and npm.
 
 ```bash
+git clone https://github.com/tejugowda-03/orchid-cyber-policy-generator.git
+
+cd orchid-cyber-policy-generator
+
+npm install
+
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Visit `http://localhost:3000` to access the application.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### Environment Configuration
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Create a `.env` file in the project root:
 
-## Learn More
+```env
+TURSO_CONNECTION_URL=your_database_url
+TURSO_AUTH_TOKEN=your_database_token
+OPENAI_API_KEY=your_openai_api_key
+```
 
-To learn more about Next.js, take a look at the following resources:
+Configure your database and apply the Drizzle migrations before running the application.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 🌐 Project Links
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- **Live Demo:** [Orchid Cyber Policy Generator](https://orchid-cyber-policy-generator-two.vercel.app/)
+- **Source Code:** [GitHub Repository](https://github.com/tejugowda-03/orchid-cyber-policy-generator)
 
-## Deploy on Vercel
+## 👨‍💻 Developer
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Teju Gowda**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+[GitHub Profile](https://github.com/tejugowda-03)
+
+---
+
+*Built to explore the potential of AI in practical cybersecurity solutions.*
